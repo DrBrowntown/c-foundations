@@ -11,6 +11,11 @@ int main() {
     v_3 = {6};
     // Creating a 2D vector.
     vector<vector<int>> v {{1,2}, {3,4}};
+
+    // For loop to iterate through vector
+    for(int i : v_2)
+        cout << i << " ";
+    cout << "\n";
     cout << "Great! A 2D vector has been created." << "\n";
     cout << "Everything worked!" << "\n";
 }
